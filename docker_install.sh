@@ -23,5 +23,3 @@ sudo apt update && sudo apt install -y \
 # Optional: Run Docker as non-root
 sudo usermod -aG docker $USER && newgrp docker
 
-# Test it
-docker run hello-world
